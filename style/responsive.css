@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    
+    .input-container{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .banner-main{
+        flex-direction: column;
+        /* gap: 10px; */
+    }
+    .banner-main h3{
+        padding-top: 20px;
+        font-size: 1.8rem;
+
+    }
+    .banner-main p{
+        padding: 0 16px;
+    }
+    .input-container{
+        height: 255px;
+    }
+    /* popular section */
+    .popular-text-cotainer{
+        width: 100%;
+    }
+    .popular-img{
+        width: 100%;
+    }
+    .popular-container{
+        flex-direction: column;
+        margin-top: 20px;
+        /* margin: 0 16px; */
+    }
+    .popular-text-cotainer h3{
+        font-size: 1.5rem;
+    }
+    .popular-text-cotainer li{
+        margin: 10px;
+        padding: 0;
+    }
+
+}
