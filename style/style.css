@@ -10,6 +10,57 @@
 
 .main-header {}
 
+.nav-main {
+    width: 90%;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel-contant {
+    display: flex;
+}
+
+.travel-contant img {
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+}
+
+.travel-contant span {
+    color: #FF5400;
+}
+
+.travel-contant h3 {
+    color: #131318;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.list>ul {
+    display: flex;
+    gap: 40px;
+
+}
+span{
+    color: #FF5400;
+}
+
+li {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+}
+
 .banner-main {
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -276,26 +327,26 @@
 
 .destination-images {}
 
-/* Newslatter Section start here----------------------------- ---- -- - - - - - - - - - - - */
+/* choose Section start here----------------------------- ---- -- - - - - - - - - - - - */
 
 
 
-.newslatter-main {
+.choose-main {
     width: 90%;
     margin: 100px auto;
 }
 
-.newslatter-header {
+.choose-header {
     text-align: center;
 }
 
-.newslatter-header h3 {
+.choose-header h3 {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
 }
 
-.newslatter-header p {
+.choose-header p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -304,7 +355,7 @@
 }
 
 
-.newslatter-img1 {
+.choose-img1 {
     display: flex;
     gap: 20px;
 
@@ -330,7 +381,7 @@ svg {
 
 }
 
-.newslatter-img2 {
+.choose-img2 {
     /* margin: 24 auto; */
     display: flex;
     align-items: center;
@@ -344,4 +395,169 @@ svg {
     padding: 32px 55px 32px 32px;
     width: 49%;
     margin: 24px auto;
+}
+
+/* choose Section End here----------------------------- ---- -- - - - - - - - - - - - */
+/* NEWSLATTER Section End here----------------------------- ---- -- - - - - - - - - - - - */
+.Newslatter-main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    max-height: 500px;
+}
+
+.Newslatter-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    /* width: 40%; */
+}
+
+.Newslatter-content h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.Newslatter-content p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 24px 0;
+}
+
+hr {
+    margin-bottom: 24px;
+    background: rgba(19, 19, 24, 0.10);
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input input {
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 0 0 0 20px;
+    border: none;
+}
+
+.input button {
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+
+
+.Newslatter-image {
+    /* width: 60%; */
+    /* height: 100%; */
+    /* max-height: 150px; */
+}
+
+.Newslatter-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.inner {
+    width: 40%;
+    height: 25%;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    top: -40%;
+    left: 55%;
+    padding: 10px auto;
+}
+
+.inner p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inner h4 {
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+/* NEWSLATTER Section End here----------------------------- ---- -- - - - - - - - - - - - */
+
+.foot-main {
+    max-height: 450px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    margin: 100px auto 0;
+}
+
+.foot-sec p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+    /* 162.5% */
+}
+
+.foot-sec {
+    width: 60%;
+    margin: 0 auto;
+    /* padding: 100px auto; */
+
+}
+
+
+.bee {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.bee svg {
+    width: 50%;
+    height: 60%;
+    /* margin: 0 auto; */
+}
+
+.bee span {
+    color: #FF5400;
+}
+
+.bee h5 {
+    color: var(--Dark-01, #131318);
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.icon-f {
+    padding-left: 45%;
+}
+
+.last {
+    padding-bottom: 100px;
 }

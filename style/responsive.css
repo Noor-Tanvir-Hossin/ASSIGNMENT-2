@@ -1,5 +1,15 @@
 @media screen and (max-width: 600px) {
     
+    
+    .nav-main{
+        flex-direction: column;
+    }
+    .list>ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
     .input-container{
         flex-direction: column;
         gap: 16px;
@@ -72,9 +82,13 @@
         margin-bottom: 24px;
        
     }
-    /* NEWSLATTER-SECTION................................................ */
+    /* DESTINATION-SECTION End................................................ */
 
-    .newslatter-img1{
+
+
+    /* choose-SECTION................................................ */
+
+    .choose-img1{
         flex-direction: column;
         /* width: 100%; */
     }
@@ -82,5 +96,43 @@
         width: 90%;
         /* margin: 0 auto; */
     }
+    /* choose-SECTION END................................................ */
+
+
+
+    /* NEWSLATTER-SECTION START................................................ */
+
+    .Newslatter-main{
+        flex-direction: column;
+    }
+    .inner{
+        padding: 0 auto;
+        width: 45%;
+        top: -80px;
+    }
+    .inner h4{
+        font-size: 1.2rem;
+    }
+    .inner p{
+        font-size: 1rem;
+    }
+    .Newslatter-image{
+        width: 100%;
+        height: 100%;
+        max-height: 400px;
+        margin-bottom: 100px;
+    }
+
+    /* NEWSLATTER-SECTION END................................................ */
+
+
+    /* FOOter-SECTION start................................................ */
+    .foot-main{
+        margin-top: 200px;
+    }
+
+
+
+
 
 }
