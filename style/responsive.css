@@ -38,5 +38,49 @@
         margin: 10px;
         padding: 0;
     }
+ 
+    /* DESTINATION-SECTION................................................ */
+    .destination-main {
+        /* width: 90%; */
+        margin: 0 auto;
+    }
+    .destination-heading h3{
+        font-size: 1.25rem;
+    }
+    .destination-heading p{
+        font-size: 0.9rem;
+    }
+    .img-div1{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .img-div2{
+        display: flex;
+       flex-direction: column;
+       gap: 10px;
+       /* image-orientation: ce; */
+       /* height: ; */
+       margin-bottom: 580px;
+    }
+    .img-div2{
+        height: 250px;
+    }
+    .img-div3{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+       
+    }
+    /* NEWSLATTER-SECTION................................................ */
+
+    .newslatter-img1{
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .card-3{
+        width: 90%;
+        /* margin: 0 auto; */
+    }
 
 }
